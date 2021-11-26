@@ -29,9 +29,9 @@ changes his mind some time)
 
 ## Changelog
 
-1.1.0 -> added new items and creatures for game patch version 0.205.5 (added root armor items and abomination 
+* 1.1.0 -> added new items and creatures for game patch version 0.205.5 (added root armor items and abomination 
 creature), also added missing creature growth
-1.0.0 -> first version
+* 1.0.0 -> first version
 
 ## Contact
 
