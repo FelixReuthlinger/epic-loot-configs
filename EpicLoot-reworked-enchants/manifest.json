@@ -1,0 +1,10 @@
+{
+	"name": "EpicLoot_reworked_enchants",
+	"description": "Reworked enchants and added recipes, requires manual installation steps, see Readme",
+	"version_number": "1.0.0",
+	"website_url": "",
+	"dependencies": [
+		"RandyKnapp-EpicLoot-0.8.7",
+		"denikson-BepInExPack_Valheim-5.4.1601"
+	]
+}

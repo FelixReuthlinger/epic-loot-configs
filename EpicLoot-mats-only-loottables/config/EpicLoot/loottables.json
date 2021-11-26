@@ -1,0 +1,2494 @@
+{
+  "MagicEffectsCount": {
+    "Magic": [
+      [ 1, 19 ],
+      [ 2, 80 ],
+      [ 3, 1 ]
+    ],
+    "Rare": [
+      [ 2, 50 ],
+      [ 3, 37 ],
+      [ 4, 13 ]
+    ],
+    "Epic": [
+      [ 3, 30 ],
+      [ 4, 55 ],
+      [ 5, 15 ]
+    ],
+    "Legendary": [
+      [ 4, 50 ],
+      [ 5, 26 ],
+      [ 6, 14 ]
+    ]
+  },
+
+  "RestrictedItems": [
+    "$item_tankard",
+    "$item_tankard_odin",
+    "Unarmed",
+    "CAPE TEST",
+    "Cheat sword",
+    "$item_sword_fire",
+    "$item_shield_iron_square"
+  ],
+
+  "ItemSets": [
+
+    {
+      "Name": "EnchantingMats",
+      "Loot": [
+        { "Item": "MagicMats" },
+        { "Item": "RareMats" },
+        { "Item": "EpicMats" },
+        { "Item": "LegendaryMats" }
+      ]
+    },
+    {
+      "Name": "MagicMats",
+      "Loot": [
+        { "Item": "DustMagic" },
+        { "Item": "EssenceMagic" },
+        { "Item": "ReagentMagic" }
+      ]
+    },
+    {
+      "Name": "RareMats",
+      "Loot": [
+        { "Item": "DustRare" },
+        { "Item": "EssenceRare" },
+        { "Item": "ReagentRare" }
+      ]
+    },
+    {
+      "Name": "EpicMats",
+      "Loot": [
+        { "Item": "DustEpic" },
+        { "Item": "EssenceEpic" },
+        { "Item": "ReagentEpic" }
+      ]
+    },
+    {
+      "Name": "LegendaryMats",
+      "Loot": [
+        { "Item": "DustLegendary" },
+        { "Item": "EssenceLegendary" },
+        { "Item": "ReagentLegendary" }
+      ]
+    },
+    {
+      "Name": "EnchantingRunestones",
+      "Loot": [
+        {
+          "Item": "RunestoneMagic",
+          "Weight": 125
+        },
+        {
+          "Item": "RunestoneRare",
+          "Weight": 25
+        },
+        {
+          "Item": "RunestoneEpic",
+          "Weight": 5
+        },
+        {
+          "Item": "RunestoneLegendary",
+          "Weight": 1
+        }
+      ]
+    }
+  ],
+
+  "LootTables": [
+    {
+      "Object": "MeadowsCreature",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [ 0, 100 ] ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 10
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 0
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 95 ],
+            [ 1, 5 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 9
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 1
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 9
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 1
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 8
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 2
+            }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 7
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 3
+            }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 65 ],
+            [ 2, 30 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 6
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 4
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Object": "BlackForestCreature",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 55 ],
+            [ 1, 40 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 40 ],
+            [ 2, 40 ],
+            [ 3, 15 ],
+            [ 4, 5 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Object": "SwampCreature",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 40 ],
+            [ 2, 20 ],
+            [ 3, 10 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 20 ],
+            [ 1, 40 ],
+            [ 2, 25 ],
+            [ 3, 15 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 15 ],
+            [ 2, 35 ],
+            [ 3, 30 ],
+            [ 4, 20 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Object": "MountainCreature",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 40 ],
+            [ 2, 20 ],
+            [ 3, 10 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 20 ],
+            [ 1, 40 ],
+            [ 2, 25 ],
+            [ 3, 15 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 15 ],
+            [ 2, 35 ],
+            [ 3, 30 ],
+            [ 4, 20 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Object": "PlainsCreature",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 40 ],
+            [ 2, 20 ],
+            [ 3, 10 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 20 ],
+            [ 1, 40 ],
+            [ 2, 25 ],
+            [ 3, 15 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 15 ],
+            [ 2, 35 ],
+            [ 3, 30 ],
+            [ 4, 20 ]
+          ],
+          "Loot": [
+            {
+              "Item": "MagicMats",
+              "Weight": 5
+            },
+            {
+              "Item": "RareMats",
+              "Weight": 5
+            },
+            {
+              "Item": "EpicMats",
+              "Weight": 5
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Greyling",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [ 0, 100 ] ],
+          "Loot": [ { "Item": "MeadowsCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 95 ],
+            [ 1, 5 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 60 ],
+            [ 2, 35 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Deer",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [ 0, 100 ] ],
+          "Loot": [ { "Item": "MeadowsCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 95 ],
+            [ 1, 5 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 60 ],
+            [ 2, 35 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Boar",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [ 0, 100 ] ],
+          "Loot": [ { "Item": "MeadowsCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 95 ],
+            [ 1, 5 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 60 ],
+            [ 2, 35 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Neck",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [ [ 0, 100 ] ],
+          "Loot": [ { "Item": "MeadowsCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 95 ],
+            [ 1, 5 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 60 ],
+            [ 2, 35 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "MeadowsCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Greydwarf",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 55 ],
+            [ 1, 40 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 40 ],
+            [ 1, 50 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 25 ],
+            [ 2, 55 ],
+            [ 3, 15 ],
+            [ 4, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Skeleton",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 55 ],
+            [ 1, 40 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 40 ],
+            [ 1, 50 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 25 ],
+            [ 2, 55 ],
+            [ 3, 15 ],
+            [ 4, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Skeleton_NoArcher",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 55 ],
+            [ 1, 40 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 40 ],
+            [ 1, 50 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 25 ],
+            [ 2, 55 ],
+            [ 3, 15 ],
+            [ 4, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Skeleton_Poison",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 55 ],
+            [ 1, 40 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 40 ],
+            [ 1, 50 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 25 ],
+            [ 2, 55 ],
+            [ 3, 15 ],
+            [ 4, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Greydwarf_Elite",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 55 ],
+            [ 1, 40 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 40 ],
+            [ 1, 50 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 25 ],
+            [ 2, 55 ],
+            [ 3, 15 ],
+            [ 4, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Troll",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 55 ],
+            [ 1, 40 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 40 ],
+            [ 1, 50 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 25 ],
+            [ 2, 55 ],
+            [ 3, 15 ],
+            [ 4, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Ghost",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 55 ],
+            [ 1, 40 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 40 ],
+            [ 1, 50 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 25 ],
+            [ 2, 55 ],
+            [ 3, 15 ],
+            [ 4, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Greydwarf_Shaman",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 90 ],
+            [ 1, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 70 ],
+            [ 1, 30 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 55 ],
+            [ 1, 40 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 40 ],
+            [ 1, 50 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 25 ],
+            [ 2, 55 ],
+            [ 3, 15 ],
+            [ 4, 5 ]
+          ],
+          "Loot": [ { "Item": "BlackForestCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Blob",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 85 ],
+            [ 1, 15 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 75 ],
+            [ 1, 25 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 60 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 20 ],
+            [ 2, 50 ],
+            [ 3, 20 ],
+            [ 4, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Draugr",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 85 ],
+            [ 1, 15 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 75 ],
+            [ 1, 25 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 60 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 20 ],
+            [ 2, 50 ],
+            [ 3, 20 ],
+            [ 4, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Draugr_Ranged",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 85 ],
+            [ 1, 15 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 75 ],
+            [ 1, 25 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 60 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 20 ],
+            [ 2, 50 ],
+            [ 3, 20 ],
+            [ 4, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Leech",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 85 ],
+            [ 1, 15 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 75 ],
+            [ 1, 25 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 60 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 20 ],
+            [ 2, 50 ],
+            [ 3, 20 ],
+            [ 4, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Surtling",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 85 ],
+            [ 1, 15 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 75 ],
+            [ 1, 25 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 60 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 20 ],
+            [ 2, 50 ],
+            [ 3, 20 ],
+            [ 4, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Draugr_Elite",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 85 ],
+            [ 1, 15 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 75 ],
+            [ 1, 25 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 60 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 20 ],
+            [ 2, 50 ],
+            [ 3, 20 ],
+            [ 4, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "BlobElite",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 85 ],
+            [ 1, 15 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 75 ],
+            [ 1, 25 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 60 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 20 ],
+            [ 2, 50 ],
+            [ 3, 20 ],
+            [ 4, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Wraith",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 85 ],
+            [ 1, 15 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 75 ],
+            [ 1, 25 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 60 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 20 ],
+            [ 2, 50 ],
+            [ 3, 20 ],
+            [ 4, 10 ]
+          ],
+          "Loot": [ { "Item": "SwampCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Wolf",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 50 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 10 ],
+            [ 1, 60 ],
+            [ 2, 20 ],
+            [ 3, 10 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 10 ],
+            [ 2, 50 ],
+            [ 3, 25 ],
+            [ 4, 15 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Hatchling",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 50 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 10 ],
+            [ 1, 60 ],
+            [ 2, 20 ],
+            [ 3, 10 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 10 ],
+            [ 2, 50 ],
+            [ 3, 25 ],
+            [ 4, 15 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "StoneGolem",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 50 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 10 ],
+            [ 1, 60 ],
+            [ 2, 20 ],
+            [ 3, 10 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 10 ],
+            [ 2, 50 ],
+            [ 3, 25 ],
+            [ 4, 15 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Fenring",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 80 ],
+            [ 1, 20 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 65 ],
+            [ 1, 30 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 50 ],
+            [ 1, 40 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 30 ],
+            [ 1, 50 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 10 ],
+            [ 1, 60 ],
+            [ 2, 20 ],
+            [ 3, 10 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 10 ],
+            [ 2, 50 ],
+            [ 3, 25 ],
+            [ 4, 15 ]
+          ],
+          "Loot": [ { "Item": "MountainCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Lox",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 75 ],
+            [ 1, 20 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 60 ],
+            [ 1, 30 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 40 ],
+            [ 1, 40 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 20 ],
+            [ 1, 50 ],
+            [ 2, 20 ],
+            [ 3, 10 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 10 ],
+            [ 1, 50 ],
+            [ 2, 25 ],
+            [ 3, 15 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 20 ],
+            [ 2, 30 ],
+            [ 3, 30 ],
+            [ 4, 20 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "Goblin",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 75 ],
+            [ 1, 20 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 60 ],
+            [ 1, 30 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 40 ],
+            [ 1, 40 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 20 ],
+            [ 1, 50 ],
+            [ 2, 20 ],
+            [ 3, 10 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 10 ],
+            [ 1, 50 ],
+            [ 2, 25 ],
+            [ 3, 15 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 20 ],
+            [ 2, 30 ],
+            [ 3, 30 ],
+            [ 4, 20 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "GoblinArcher",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 75 ],
+            [ 1, 20 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 60 ],
+            [ 1, 30 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 40 ],
+            [ 1, 40 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 20 ],
+            [ 1, 50 ],
+            [ 2, 20 ],
+            [ 3, 10 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 10 ],
+            [ 1, 50 ],
+            [ 2, 25 ],
+            [ 3, 15 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 20 ],
+            [ 2, 30 ],
+            [ 3, 30 ],
+            [ 4, 20 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "GoblinBrute",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 75 ],
+            [ 1, 20 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 60 ],
+            [ 1, 30 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 40 ],
+            [ 1, 40 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 20 ],
+            [ 1, 50 ],
+            [ 2, 20 ],
+            [ 3, 10 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 10 ],
+            [ 1, 50 ],
+            [ 2, 25 ],
+            [ 3, 15 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 20 ],
+            [ 2, 30 ],
+            [ 3, 30 ],
+            [ 4, 20 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.6" } ]
+        }
+      ]
+    },
+
+    {
+      "Object": "GoblinShaman",
+      "LeveledLoot": [
+        {
+          "Level": 1,
+          "Drops": [
+            [ 0, 75 ],
+            [ 1, 20 ],
+            [ 2, 5 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.1" } ]
+        },
+        {
+          "Level": 2,
+          "Drops": [
+            [ 0, 60 ],
+            [ 1, 30 ],
+            [ 2, 10 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.2" } ]
+        },
+        {
+          "Level": 3,
+          "Drops": [
+            [ 0, 40 ],
+            [ 1, 40 ],
+            [ 2, 15 ],
+            [ 3, 5 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.3" } ]
+        },
+        {
+          "Level": 4,
+          "Drops": [
+            [ 0, 20 ],
+            [ 1, 50 ],
+            [ 2, 20 ],
+            [ 3, 10 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.4" } ]
+        },
+        {
+          "Level": 5,
+          "Drops": [
+            [ 0, 10 ],
+            [ 1, 50 ],
+            [ 2, 25 ],
+            [ 3, 15 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.5" } ]
+        },
+        {
+          "Level": 6,
+          "Drops": [
+            [ 0, 0 ],
+            [ 1, 20 ],
+            [ 2, 30 ],
+            [ 3, 30 ],
+            [ 4, 20 ]
+          ],
+          "Loot": [ { "Item": "PlainsCreature.6" } ]
+        }
+      ]
+    }
+  ]
+}
