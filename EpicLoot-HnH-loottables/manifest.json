@@ -1,7 +1,7 @@
 {
 	"name": "EpicLoot_HeartAndHome_LootTables",
 	"description": "Updated loot tables for Heart and Home",
-	"version_number": "1.2.0",
+	"version_number": "1.2.1",
 	"website_url": "https://github.com/FelixReuthlinger/epic-loot-configs",
 	"dependencies": [
 		"RandyKnapp-EpicLoot-0.8.7",

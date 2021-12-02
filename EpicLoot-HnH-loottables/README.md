@@ -37,6 +37,7 @@ Can only be used if no other mods overwriting the same files!
 
 ## Changelog
 
+* 1.2.1 -> fixed automation config using wrong file name
 * 1.2.0 -> using new cool ASP mod to move EpicLoot files, so no manual steps required anymore ;)
 * 1.1.0 -> added new items and creatures for game patch version 0.205.5 (added root armor items and abomination 
 creature), also added missing creature growth
