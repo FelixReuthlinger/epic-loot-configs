@@ -42,8 +42,8 @@ Can only be used if no other mods overwriting the same files!
 
 ## Changelog
 
-1.1.0 -> using new cool ASP mod to move EpicLoot files, so no manual steps required anymore ;)
-1.0.0 -> first version
+* 1.1.0 -> using new cool ASP mod to move EpicLoot files, so no manual steps required anymore ;)
+* 1.0.0 -> first version
 
 ## Contact
 
