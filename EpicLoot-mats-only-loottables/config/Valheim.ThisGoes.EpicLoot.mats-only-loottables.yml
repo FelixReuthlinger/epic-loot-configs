@@ -1,0 +1,4 @@
+PrintComment: Moving the EpicLoot modified config files into the EpicLoot plugins folder
+CopyFile:
+- From: config/EpicLoot/loottables.json
+  To: plugins/RandyKnapp-EpicLoot/loottables.json

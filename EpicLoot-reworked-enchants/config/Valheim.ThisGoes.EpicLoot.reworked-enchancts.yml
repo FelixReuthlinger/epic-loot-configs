@@ -1,0 +1,8 @@
+PrintComment: Moving the EpicLoot modified config files into the EpicLoot plugins folder
+CopyFile:
+- From: config/EpicLoot/enchantcosts.json
+  To: plugins/RandyKnapp-EpicLoot/enchantcosts.json
+- From: config/EpicLoot/magiceffects.json
+  To: plugins/RandyKnapp-EpicLoot/magiceffects.json
+- From: config/EpicLoot/recipes.json
+  To: plugins/RandyKnapp-EpicLoot/recipes.json

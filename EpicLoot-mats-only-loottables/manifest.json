@@ -1,10 +1,11 @@
 {
 	"name": "EpicLoot_MatsOnly_LootTables",
 	"description": "Updated loot tables that will only drop enchanting materials, requires manual installation steps, see Readme",
-	"version_number": "1.0.0",
+	"version_number": "1.1.0",
 	"website_url": "",
 	"dependencies": [
 		"RandyKnapp-EpicLoot-0.8.7",
+		"ASharpPen-This_Goes_Here-1.1.0",
 		"denikson-BepInExPack_Valheim-5.4.1601"
 	]
 }
